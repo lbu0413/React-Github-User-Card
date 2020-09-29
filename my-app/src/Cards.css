@@ -8,7 +8,7 @@
     border-radius: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: goldenrod
+    background-color: lightgoldenrodyellow
 }
 .userContainer img{
     margin-top: 1%;
@@ -22,7 +22,7 @@ h1{
 
 .userInfo{
     font-weight: bold;
-    color: black;
+    color: olive;
 }
 
 .followersContainer{
@@ -35,7 +35,9 @@ h1{
     border-radius: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: goldenrod
+    background-color: lightgoldenrodyellow
+
+
 }
 
 .followersContainer img{
@@ -45,5 +47,5 @@ h1{
 
 .followersInfo{
     font-weight: bold;
-    color: black;
+    color: olive;
 }

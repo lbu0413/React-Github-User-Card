@@ -56,8 +56,8 @@ class Cards extends React.Component {
                 <h1>Github Followers Cards</h1>
                     {this.state.followersApi.map(follower => (
                   <div className="followersContainer">
-                      <div className="followersInfo">{follower.login}</div>
-                      <div className="followersInfo">{follower.name}</div>
+                      <div className="followersInfo">Username: {follower.login}</div>
+                      <div className="followersInfo">id: {follower.id}</div>
                       <div className="followersInfo">{follower.bio}</div>
                       <img src={follower.avatar_url} width="200px" />
                   </div>
