@@ -1,0 +1,49 @@
+.userContainer{
+    display: flex;
+    flex-flow: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+    border-radius: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: goldenrod
+}
+.userContainer img{
+    margin-top: 1%;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.userInfo{
+    font-weight: bold;
+    color: black;
+}
+
+.followersContainer{
+    display: flex;
+    flex-flow: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+    border-radius: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: goldenrod
+}
+
+.followersContainer img{
+    margin-top: 1%;
+    border-radius: 50%;
+}
+
+.followersInfo{
+    font-weight: bold;
+    color: black;
+}
